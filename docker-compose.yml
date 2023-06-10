@@ -34,11 +34,6 @@ services:
       timeout: 5s
       retries: 5
 
-  open-api:
-    image: swaggerapi/swagger-ui
-    container_name: swagger_ui_container
-    ports:
-      - 8081:8080
 
 
 
